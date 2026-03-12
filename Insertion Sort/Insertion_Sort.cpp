@@ -56,17 +56,20 @@ void display(){
     cout << endl;
     cout << "\n==============";
     cout << "\nElemen Array" << endl;
-    cout << "\n=============="
+    cout << "\n==============";
+    
 
-    for(int j = 0; j < n; j++){
-        cout << arr[j] << endl;
+
+
+    for (int j = 0; j < n; j++){
+cout  << arr [j] << endl;
     }
     cout << endl;
+    
 }
-
 int main(){
     input();
-    indertionsort();
+    insertionsort();
     display();
     system("pause");
     
